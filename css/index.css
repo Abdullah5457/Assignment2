@@ -1,0 +1,265 @@
+/*To set the padding and margin to zero*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Containing the tabs */
+.Header{
+    background-color:#001f3f;
+    padding: 5px 5px 5px 5px;
+    margin: 0px;
+   }
+/*Change the color for the current tabf*/
+.Header .active{
+    color: red;
+}
+/*The style of the list*/
+li{
+    font-size: 90%;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px;
+}
+/*Containing the style for a that is inside li*/
+li a{
+    text-align: center;
+    padding: 20px 20px;
+}
+/* When the cursor is at AboutAs will drop a menu that containing the name of my group*/
+li a:hover {
+    background-color: silver;
+    
+}
+/*padding and size for i*/
+i{
+    padding: 5px;
+    font-size: 30px;
+}
+/*style for a*/
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+/* style of p inside h1*/
+h1 p{
+    border: 2px solid black;
+    font-family: 'Alegreya';
+    font-size: 22px;
+    
+}
+/*To display the menu under each other*/
+.dropDownMenu{
+  display: inline-block;
+}
+/*Containing the attributes*/
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/*Attributes for each a inside the dropDownMenue */
+.dropdown a {
+  color: black;
+  padding: 25px 25px 25px 25px;
+  text-decoration: none;
+  display: block;
+}
+/* The color changing when hovering on each a inside dropDownMenue */
+.dropdown a:hover {
+    background-color: #ddd;
+}
+/*Making the display of the dropdownmenu as blocks when hover on the dropdownmenu tab*/
+.dropDownMenu:hover .dropdown {
+    display: block;
+    }
+
+/*Containg attributes of the table */
+.table{
+    width:100%; 
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+/*Setting the border, padding and margin for the table and elements th and td */
+.table, th, td {
+    border: 2px solid #AAAAAA;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+}
+/*Chaning the background color and color of the class tr1*/
+.tr1{
+    background-color: #85144b;
+    color: white;
+}
+/*Chaning the colors for the top elements only*/
+.th1{
+    color:white;
+    background-color: #001f3f; 
+    
+}
+/*Video size, height and width and other attributes for videos*/
+#video{
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+/*banner class which has the display and width for the top banner*/
+.banner{
+    width: 100%;
+    display: block;
+}
+/* Chaning the attributes of the image inside the top banner */
+.banner .banImage{
+    width: 100%;
+    display: block;
+    height: 320px;
+    
+}
+/*color of the submit and reset input buttons*/ 
+.submitReset input {
+    background-color: limegreen;
+}
+/*Contact form attributes */
+.contactUs{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*the style of input blanks, select and textareas*/
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*input styles alone */
+input{
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*Attribute of the class contactus iframe height,width and margin*/
+.contactUS iframe{
+    width: 70%;
+    height: 900px;
+    margin: 250px;
+    
+}
+/*h1 making the text on center for all h1 with red color*/
+h1{
+    text-align: center;
+    color: red;
+}
+/*set margin for the iframe inside the CV class */
+.CV iframe{
+    margin: 100px 100px 50px 50px;
+}
+/* this class has the attributes of the whole footer in general*/
+.GeneralFooter{
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+/*span attributes alone*/
+span{
+    color: aqua;
+}
+
+/*image id which has the float of the image to be at the right */
+#image{
+    float: right;
+    
+}
+/*Change the color for the code*/
+#Code{
+    font-size: 140%;
+    color: blue;
+}
+/*image for the code*/
+.imageCode img{
+    width: 700px;
+    height: 700px;
+    margin:8px;
+    padding: 20px;
+}
+
+/*the display of left footer and centeral footer which are inside general footer class*/
+.GeneralFooter .footer-left,
+.GeneralFooter .centerFooter{
+    display: inline-block;
+    vertical-align: top;
+}
+/*display and attributes of footerlinks class which contains a inside*/
+.GeneralFooter .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+}
+
+/*i attributes in centeral footer*/
+.GeneralFooter .centerFooter i{
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+}
+/*paragraphs p design in central footer*/
+.GeneralFooter .centerFooter p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+}
+/*spans attributes which are inside paragraphs in centeralfooter 
+it contains the display of span and size etc*/
+.GeneralFooter .centerFooter p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+/*coonsists of the display of footerlinks class in the whole footer*/
+.GeneralFooter .footer-links{
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
